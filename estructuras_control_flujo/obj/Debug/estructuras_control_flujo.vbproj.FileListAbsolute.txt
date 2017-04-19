@@ -1,0 +1,10 @@
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\estructuras_control_flujo\bin\Debug\estructuras_control_flujo.exe.config
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\estructuras_control_flujo\bin\Debug\estructuras_control_flujo.exe
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\estructuras_control_flujo\bin\Debug\estructuras_control_flujo.pdb
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\estructuras_control_flujo\bin\Debug\estructuras_control_flujo.xml
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\estructuras_control_flujo\obj\Debug\estructuras_control_flujo.vbprojResolveAssemblyReference.cache
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\estructuras_control_flujo\obj\Debug\estructuras_control_flujo.Resources.resources
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\estructuras_control_flujo\obj\Debug\estructuras_control_flujo.vbproj.GenerateResource.Cache
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\estructuras_control_flujo\obj\Debug\estructuras_control_flujo.exe
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\estructuras_control_flujo\obj\Debug\estructuras_control_flujo.xml
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\estructuras_control_flujo\obj\Debug\estructuras_control_flujo.pdb
