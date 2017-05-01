@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{43B50A9F-9DC8-47CB-8782-DC25F1354F5B}</ProjectGuid>
+    <ProjectGuid>{777DA259-0475-45A9-A8D1-E5115E320824}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>estructuras_control_flujo.sientonces</StartupObject>
-    <RootNamespace>estructuras_control_flujo</RootNamespace>
-    <AssemblyName>estructuras_control_flujo</AssemblyName>
+    <StartupObject>Procedimientos.Fecha_Hora</StartupObject>
+    <RootNamespace>Procedimientos</RootNamespace>
+    <AssemblyName>Procedimientos</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>estructuras_control_flujo.xml</DocumentationFile>
+    <DocumentationFile>Procedimientos.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>estructuras_control_flujo.xml</DocumentationFile>
+    <DocumentationFile>Procedimientos.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -68,8 +68,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="estructuras_repetitivas.vb" />
-    <Compile Include="sientonces.vb" />
+    <Compile Include="Fecha_Hora.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

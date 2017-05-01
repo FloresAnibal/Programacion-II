@@ -1,0 +1,10 @@
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\Procedimientos\bin\Debug\Procedimientos.exe.config
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\Procedimientos\bin\Debug\Procedimientos.exe
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\Procedimientos\bin\Debug\Procedimientos.pdb
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\Procedimientos\bin\Debug\Procedimientos.xml
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\Procedimientos\obj\Debug\Procedimientos.vbprojResolveAssemblyReference.cache
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\Procedimientos\obj\Debug\Procedimientos.Resources.resources
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\Procedimientos\obj\Debug\Procedimientos.vbproj.GenerateResource.Cache
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\Procedimientos\obj\Debug\Procedimientos.exe
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\Procedimientos\obj\Debug\Procedimientos.xml
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\HolaMundo\Procedimientos\obj\Debug\Procedimientos.pdb

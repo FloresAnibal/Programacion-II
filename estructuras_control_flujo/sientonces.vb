@@ -288,142 +288,135 @@
 
     '-------------------------- EJERCICIO 2.8 -------------------------
 
-    'Enum meses_anio
-    '    enero = 1
-    '    febrero = 2
-    '    marzo = 3
-    '    abril = 4
-    '    mayo = 5
-    '    junio = 6
-    '    julio = 7
-    '    agosto = 8
-    '    septiembre = 9
-    '    octubre = 10
-    '    noviembre = 11
-    '    diciembre = 12
-    'End Enum
+    Enum meses_anio
+        enero = 1
+        febrero = 2
+        marzo = 3
+        abril = 4
+        mayo = 5
+        junio = 6
+        julio = 7
+        agosto = 8
+        septiembre = 9
+        octubre = 10
+        noviembre = 11
+        diciembre = 12
+    End Enum
 
-    'Sub Main()
+    Sub Main()
 
-    '    Dim mes As Byte
-    '    Dim anio As UShort
-    '    Dim dias As Byte
+        Dim mes As Byte
+        Dim anio As UShort
+        Dim dias As Byte
 
-    '    Console.WriteLine("Ingrese un mes (1 al 12)" & vbCrLf)
-    '    mes = Console.ReadLine()
+        Console.WriteLine("Ingrese un mes (1 al 12)" & vbCrLf)
+        mes = Console.ReadLine()
 
-    '    If mes = meses_anio.febrero Then
-    '        Console.WriteLine(vbCrLf & "Ingrese el año" & vbCrLf)
-    '        anio = Console.ReadLine()
-    '        ' Si es Febrero, evaluo si el año es bisiesto o no y asigno la cantidad de dias
-    '        If anio Mod 400 = 0 Or anio Mod 4 = 0 And anio Mod 100 <> 0 Then
-    '            dias = 29
-    '        Else
-    '            dias = 28
-    '        End If
-    '        ' Si no es Febrero, evaluo si es un mes de 30 o 31 dias
-    '    ElseIf mes < 8 And mes Mod 2 <> 0 Or mes > 7 And mes Mod 2 = 0 Then
-    '        dias = 31
-    '    Else
-    '        dias = 30
-    '    End If
+        Select Case mes
+            Case meses_anio.enero
+                ' Console.WriteLine(vbCrLf & "Se ingresó Enero y tiene " & dias & " días")
+                Console.WriteLine(vbCrLf & "Se ingresó Enero y tiene 31 días")
+            Case meses_anio.febrero
+                Console.WriteLine(vbCrLf & "Ingrese el año" & vbCrLf)
+                anio = Console.ReadLine()
+                ' Si es Febrero, evaluo si el año es bisiesto o no y asigno la cantidad de dias
+                If anio Mod 400 = 0 Or anio Mod 4 = 0 And anio Mod 100 <> 0 Then
+                    dias = 29
+                Else
+                    dias = 28
+                End If
+                Console.WriteLine(vbCrLf & "Se ingresó Febrero de " & anio & " y tiene " & dias & " días")
+            Case meses_anio.marzo
+                Console.WriteLine(vbCrLf & "Se ingresó Marzo y tiene 31 días")
+            Case meses_anio.abril
+                Console.WriteLine(vbCrLf & "Se ingresó Abril y tiene 30 días")
+            Case meses_anio.mayo
+                Console.WriteLine(vbCrLf & "Se ingresó Mayo y tiene 31 días")
+            Case meses_anio.junio
+                Console.WriteLine(vbCrLf & "Se ingresó Junio y tiene 30 días")
+            Case meses_anio.julio
+                Console.WriteLine(vbCrLf & "Se ingresó Julio y tiene 31 días")
+            Case meses_anio.agosto
+                Console.WriteLine(vbCrLf & "Se ingresó Agosto y tiene 31 días")
+            Case meses_anio.septiembre
+                Console.WriteLine(vbCrLf & "Se ingresó Septiembre y tiene 30 días")
+            Case meses_anio.octubre
+                Console.WriteLine(vbCrLf & "Se ingresó Octubre y tiene 31 días")
+            Case meses_anio.noviembre
+                Console.WriteLine(vbCrLf & "Se ingresó Noviembre y tiene 30 días")
+            Case meses_anio.diciembre
+                Console.WriteLine(vbCrLf & "Se ingresó Diciembre y tiene 31 días")
+            Case Else
+                Console.WriteLine(vbCrLf & "Error en el valor del mes")
+        End Select
 
-    '    Select Case mes
-    '        Case meses_anio.enero
-    '            Console.WriteLine(vbCrLf & "Se ingresó Enero y tiene " & dias & " días")
-    '        Case meses_anio.febrero
-    '            Console.WriteLine(vbCrLf & "Se ingresó Febrero de " & anio & " y tiene " & dias & " días")
-    '        Case meses_anio.marzo
-    '            Console.WriteLine(vbCrLf & "Se ingresó Marzo y tiene " & dias & " días")
-    '        Case meses_anio.abril
-    '            Console.WriteLine(vbCrLf & "Se ingresó Abril y tiene " & dias & " días")
-    '        Case meses_anio.mayo
-    '            Console.WriteLine(vbCrLf & "Se ingresó Mayo y tiene " & dias & " días")
-    '        Case meses_anio.junio
-    '            Console.WriteLine(vbCrLf & "Se ingresó Junio y tiene " & dias & " días")
-    '        Case meses_anio.julio
-    '            Console.WriteLine(vbCrLf & "Se ingresó Julio y tiene " & dias & " días")
-    '        Case meses_anio.agosto
-    '            Console.WriteLine(vbCrLf & "Se ingresó Agosto y tiene " & dias & " días")
-    '        Case meses_anio.septiembre
-    '            Console.WriteLine(vbCrLf & "Se ingresó Septiembre y tiene " & dias & " días")
-    '        Case meses_anio.octubre
-    '            Console.WriteLine(vbCrLf & "Se ingresó Octubre y tiene " & dias & " días")
-    '        Case meses_anio.noviembre
-    '            Console.WriteLine(vbCrLf & "Se ingresó Noviembre y tiene " & dias & " días")
-    '        Case meses_anio.diciembre
-    '            Console.WriteLine(vbCrLf & "Se ingresó Diciembre y tiene " & dias & " días")
-    '        Case Else
-    '            Console.WriteLine(vbCrLf & "Error en el valor del mes")
-    '    End Select
+        Console.ReadKey()
 
-    '    Console.ReadKey()
-
-    'End Sub
+    End Sub
 
 
 
     '-------------------------- EJERCICIO 2.9 -------------------------
 
-    Enum unidades_medida
-        metros = 1
-        yardas = 2
-        pies = 3
-        pulgadas = 4
-    End Enum
+    'Enum unidades_medida
+    '    metros = 1
+    '    yardas = 2
+    '    pies = 3
+    '    pulgadas = 4
+    'End Enum
 
-    Sub Main()
+    'Sub Main()
 
-        Dim unidad_medida As Short
-        Dim valor_convertir As Single
+    '    Dim unidad_medida As Short
+    '    Dim valor_convertir As Single
 
-        Const centimetro As Single = 1
-        Const metro As Single = 100.0 * centimetro
-        Const pulgada As Single = 2.54 * centimetro
-        Const pie As Single = 12.0 * pulgada
-        Const yarda As Single = 3.0 * pie
+    '    Const centimetro As Single = 1
+    '    Const metro As Single = 100.0 * centimetro
+    '    Const pulgada As Single = 2.54 * centimetro
+    '    Const pie As Single = 12.0 * pulgada
+    '    Const yarda As Single = 3.0 * pie
 
-        Console.WriteLine("Escoja la unidad de medida a convertir: " & vbCrLf)
-        Console.WriteLine("Metros = 1" & vbCrLf & "Yardas = 2" & vbCrLf & "Pies = 3" & vbCrLf & "Pulgadas = 4" & vbCrLf)
-        unidad_medida = Console.ReadLine()
+    '    Console.WriteLine("Escoja la unidad de medida a convertir: " & vbCrLf)
+    '    Console.WriteLine("Metros = 1" & vbCrLf & "Yardas = 2" & vbCrLf & "Pies = 3" & vbCrLf & "Pulgadas = 4" & vbCrLf)
+    '    unidad_medida = Console.ReadLine()
 
-        If unidad_medida < 1 Or unidad_medida > 4 Then
-            Console.WriteLine(vbCrLf & "Valor no admitido!!!")
-        Else
-            Console.WriteLine(vbCrLf & "Ingrese el valor que desea convertir" & vbCrLf)
-            valor_convertir = Console.ReadLine()
+    '    If unidad_medida < 1 Or unidad_medida > 4 Then
+    '        Console.WriteLine(vbCrLf & "Valor no admitido!!!")
+    '    Else
+    '        Console.WriteLine(vbCrLf & "Ingrese el valor que desea convertir" & vbCrLf)
+    '        valor_convertir = Console.ReadLine()
 
-            Select Case unidad_medida
-                Case unidades_medida.metros
-                    Console.WriteLine(vbCrLf & valor_convertir & " Metro/s equivale a:" & vbCrLf)
-                    Console.WriteLine(valor_convertir / pulgada * metro & " Pulgadas")
-                    Console.WriteLine(valor_convertir / pie * metro & " Pies")
-                    Console.WriteLine(valor_convertir / yarda * metro & " Yardas")
-                    Console.WriteLine(valor_convertir / centimetro * 100 & " Centimetros")
-                Case unidades_medida.pies
-                    Console.WriteLine(vbCrLf & valor_convertir & " Pie/s equivale a:" & vbCrLf)
-                    Console.WriteLine(valor_convertir / metro * pie & " Metros")
-                    Console.WriteLine(valor_convertir / pulgada * pie & " Pulgadas")
-                    Console.WriteLine(valor_convertir / yarda * pie & " Yardas")
-                    Console.WriteLine(valor_convertir / centimetro * pie & " Centimetros")
-                Case unidades_medida.pulgadas
-                    Console.WriteLine(vbCrLf & valor_convertir & " Pulgada/s equivale a:" & vbCrLf)
-                    Console.WriteLine(valor_convertir / metro * pulgada & " Metros")
-                    Console.WriteLine(valor_convertir / pie * pulgada & " Pies")
-                    Console.WriteLine(valor_convertir / yarda * pulgada & " Yardas")
-                    Console.WriteLine(valor_convertir / centimetro * pulgada & " Centimetros")
-                Case unidades_medida.yardas
-                    Console.WriteLine(vbCrLf & valor_convertir & " Yarda/s equivale a:" & vbCrLf)
-                    Console.WriteLine(valor_convertir / metro * yarda & " Metros")
-                    Console.WriteLine(valor_convertir / pie * yarda & " Pies")
-                    Console.WriteLine(valor_convertir / pulgada * yarda & " Pulgadas")
-                    Console.WriteLine(valor_convertir / centimetro * yarda & " Centimetros")
-            End Select
-        End If
+    '        Select Case unidad_medida
+    '            Case unidades_medida.metros
+    '                Console.WriteLine(vbCrLf & valor_convertir & " Metro/s equivale a:" & vbCrLf)
+    '                Console.WriteLine(valor_convertir / pulgada * metro & " Pulgadas")
+    '                Console.WriteLine(valor_convertir / pie * metro & " Pies")
+    '                Console.WriteLine(valor_convertir / yarda * metro & " Yardas")
+    '                Console.WriteLine(valor_convertir / centimetro * 100 & " Centimetros")
+    '            Case unidades_medida.pies
+    '                Console.WriteLine(vbCrLf & valor_convertir & " Pie/s equivale a:" & vbCrLf)
+    '                Console.WriteLine(valor_convertir / metro * pie & " Metros")
+    '                Console.WriteLine(valor_convertir / pulgada * pie & " Pulgadas")
+    '                Console.WriteLine(valor_convertir / yarda * pie & " Yardas")
+    '                Console.WriteLine(valor_convertir / centimetro * pie & " Centimetros")
+    '            Case unidades_medida.pulgadas
+    '                Console.WriteLine(vbCrLf & valor_convertir & " Pulgada/s equivale a:" & vbCrLf)
+    '                Console.WriteLine(valor_convertir / metro * pulgada & " Metros")
+    '                Console.WriteLine(valor_convertir / pie * pulgada & " Pies")
+    '                Console.WriteLine(valor_convertir / yarda * pulgada & " Yardas")
+    '                Console.WriteLine(valor_convertir / centimetro * pulgada & " Centimetros")
+    '            Case unidades_medida.yardas
+    '                Console.WriteLine(vbCrLf & valor_convertir & " Yarda/s equivale a:" & vbCrLf)
+    '                Console.WriteLine(valor_convertir / metro * yarda & " Metros")
+    '                Console.WriteLine(valor_convertir / pie * yarda & " Pies")
+    '                Console.WriteLine(valor_convertir / pulgada * yarda & " Pulgadas")
+    '                Console.WriteLine(valor_convertir / centimetro * yarda & " Centimetros")
+    '        End Select
+    '    End If
 
-        Console.ReadLine()
+    '    Console.ReadLine()
 
-    End Sub
+    'End Sub
 
 End Module
 

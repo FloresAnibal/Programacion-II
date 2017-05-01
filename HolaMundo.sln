@@ -7,6 +7,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Variables_operaciones", "Va
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "estructuras_control_flujo", "estructuras_control_flujo\estructuras_control_flujo.vbproj", "{43B50A9F-9DC8-47CB-8782-DC25F1354F5B}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Procedimientos", "Procedimientos\Procedimientos.vbproj", "{777DA259-0475-45A9-A8D1-E5115E320824}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{43B50A9F-9DC8-47CB-8782-DC25F1354F5B}.Release|x64.Build.0 = Release|Any CPU
 		{43B50A9F-9DC8-47CB-8782-DC25F1354F5B}.Release|x86.ActiveCfg = Release|Any CPU
 		{43B50A9F-9DC8-47CB-8782-DC25F1354F5B}.Release|x86.Build.0 = Release|Any CPU
+		{777DA259-0475-45A9-A8D1-E5115E320824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777DA259-0475-45A9-A8D1-E5115E320824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777DA259-0475-45A9-A8D1-E5115E320824}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{777DA259-0475-45A9-A8D1-E5115E320824}.Debug|x64.Build.0 = Debug|Any CPU
+		{777DA259-0475-45A9-A8D1-E5115E320824}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{777DA259-0475-45A9-A8D1-E5115E320824}.Debug|x86.Build.0 = Debug|Any CPU
+		{777DA259-0475-45A9-A8D1-E5115E320824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777DA259-0475-45A9-A8D1-E5115E320824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777DA259-0475-45A9-A8D1-E5115E320824}.Release|x64.ActiveCfg = Release|Any CPU
+		{777DA259-0475-45A9-A8D1-E5115E320824}.Release|x64.Build.0 = Release|Any CPU
+		{777DA259-0475-45A9-A8D1-E5115E320824}.Release|x86.ActiveCfg = Release|Any CPU
+		{777DA259-0475-45A9-A8D1-E5115E320824}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
