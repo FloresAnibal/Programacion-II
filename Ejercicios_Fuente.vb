@@ -1324,3 +1324,212 @@
         Return valor - Math.Truncate(valor) 'Extraigo parte entera
 
     End Function
+
+
+     '-------------------------- EJERCICIO 3.6 --Fecha_Hora-------------
+
+    Sub Main()
+
+        Dim valor As Single
+
+        Do
+            Console.WriteLine("Ingresar valor: ")
+            valor = Console.ReadLine()
+        Loop While validar(valor) = False
+
+        calcular(valor)
+        Console.WriteLine("La sumatoria de los cuadrados es: " & valor)
+
+        Console.ReadKey()
+
+    End Sub
+
+    Private Function validar(dato) As Boolean
+
+        If dato > 0 And (dato - Math.Truncate(dato)) = 0 Then
+            Return True
+        Else
+            Return False
+        End If
+
+    End Function
+
+    Private Sub calcular(ByRef dato1)
+        Dim fin = dato1
+        dato1 = 0
+        For ini = 1 To fin
+            dato1 += ini ^ 2
+        Next
+    End Sub
+
+
+
+'-------------------------- EJERCICIO 3.7 y 3.8 --Fecha_Hora-------
+        Enum operaciones
+        suma
+        resta
+        multiplicacion
+        division
+    End Enum
+
+    Sub Main()
+        Dim a As Integer = 3
+        Dim b As Integer = 2
+        Dim c As Integer = 1
+        Dim d As Single = 4
+
+        resultado(operaciones.resta, a, c, b)
+        Console.WriteLine(" = " & calcular(operaciones.resta, a, c, b))
+
+        Console.ReadKey()
+    End Sub
+
+    Private Function calcular(operacion As Object, valor1 As Single, valor2 As Single) As Single
+        Select Case (operacion)
+            Case 0
+                Return valor1 + valor2
+            Case 1
+                Return valor1 - valor2
+            Case 2
+                Return valor1 * valor2
+            Case 3
+                Return valor1 / valor2
+        End Select
+        Return 0
+    End Function
+
+    Private Function calcular(operacion As Object, valor1 As Single, valor2 As Single, valor3 As Single) As Single
+        Select Case (operacion)
+            Case 0
+                Return calcular(operacion, valor1, valor2) + valor3
+            Case 1
+                Return calcular(operacion, valor1, valor2) - valor3
+            Case 2
+                Return calcular(operacion, valor1, valor2) * valor3
+            Case 3
+                Return calcular(operacion, valor1, valor2) / valor3
+        End Select
+        Return 0
+    End Function
+
+    Private Function calcular(operacion As Object, valor1 As Single, valor2 As Single, valor3 As Single, valor4 As Single) As Single
+        Select Case (operacion)
+            Case 0
+                Return calcular(operacion, valor1, valor2, valor3) + valor4
+            Case 1
+                Return calcular(operacion, valor1, valor2, valor3) - valor4
+            Case 2
+                Return calcular(operacion, valor1, valor2, valor3) * valor4
+            Case 3
+                Return calcular(operacion, valor1, valor2, valor3) / valor4
+        End Select
+        Return 0
+    End Function
+
+    Private Function sumar(valor1 As Single, valor2 As Single) As Single
+        Return valor1 + valor2
+    End Function
+
+    Private Function sumar(valor1 As Single, valor2 As Single, valor3 As Single) As Single
+        Return sumar(valor1, valor2) + valor3
+    End Function
+
+    Private Function sumar(valor1 As Single, valor2 As Single, valor3 As Single, valor4 As Single) As Single
+        Return sumar(valor1, valor2, valor3) + valor4
+    End Function
+
+    Private Sub resultado(operacion, valor1, valor2)
+        Select Case (operacion)
+            Case 0
+                Console.Write(valor1 & " + " & valor2)
+            Case 1
+                Console.Write(valor1 & " - " & valor2)
+            Case 2
+                Console.Write(valor1 & " * " & valor2)
+            Case 3
+                Console.Write(valor1 & " / " & valor2)
+        End Select
+    End Sub
+
+    Private Sub resultado(operacion, valor1, valor2, valor3)
+        Select Case (operacion)
+            Case 0
+                resultado(operacion, valor1, valor2)
+                Console.Write(" + " & valor3)
+            Case 1
+                resultado(operacion, valor1, valor2)
+                Console.Write(" - " & valor3)
+            Case 2
+                resultado(operacion, valor1, valor2)
+                Console.Write(" * " & valor3)
+            Case 3
+                resultado(operacion, valor1, valor2)
+                Console.Write(" / " & valor3)
+        End Select
+    End Sub
+
+    Private Sub resultado(operacion, valor1, valor2, valor3, valor4)
+        Select Case (operacion)
+            Case 0
+                resultado(operacion, valor1, valor2, valor3)
+                Console.Write(" + " & valor4)
+            Case 1
+                resultado(operacion, valor1, valor2, valor3)
+                Console.Write(" - " & valor4)
+            Case 2
+                resultado(operacion, valor1, valor2, valor3)
+                Console.Write(" * " & valor4)
+            Case 3
+                resultado(operacion, valor1, valor2, valor3)
+                Console.Write(" / " & valor4)
+        End Select
+    End Sub
+
+
+     '-------------------------- EJERCICIO 3.9 --Fecha_Hora-------------
+    Sub Main()
+
+        Dim opcion As UShort
+        Dim dato1 As Single
+        Dim dato2 As Single
+        Dim dato3 As Single
+
+        Console.WriteLine("1.- Cuadrado")
+        Console.WriteLine("2.- Rectangulo")
+        Console.WriteLine("3.- Trapecio")
+        opcion = Console.ReadLine()
+
+        Select Case (opcion)
+            Case 1
+                Console.WriteLine("Ingrese Lado: ")
+                dato1 = Console.ReadLine()
+                calcular_area(dato1)
+            Case 2
+                Console.WriteLine("Ingrese Base: ")
+                dato1 = Console.ReadLine()
+                Console.WriteLine("Ingrese Altura: ")
+                dato2 = Console.ReadLine()
+                calcular_area(dato1, dato2)
+            Case 3
+                Console.WriteLine("Ingrese Base Mayor: ")
+                dato1 = Console.ReadLine()
+                Console.WriteLine("Ingrese Base Menor: ")
+                dato2 = Console.ReadLine()
+                Console.WriteLine("Ingrese Altura: ")
+                dato3 = Console.ReadLine()
+                calcular_area(dato1, dato2, dato3)
+        End Select
+        Console.ReadKey()
+    End Sub
+
+    Private Sub calcular_area(valor1)
+        Console.WriteLine("El area del cuadrado es: " & valor1 ^ 2)
+    End Sub
+
+    Private Sub calcular_area(valor1, valor2)
+        Console.WriteLine("El area del rectangulo es: " & valor1 * valor2)
+    End Sub
+    
+    Private Sub calcular_area(valor1, valor2, valor3)
+        Console.WriteLine("El area del trapecio es: " & (valor1 + valor2) / 2 * valor3)
+    End Sub
