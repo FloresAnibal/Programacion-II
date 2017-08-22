@@ -1,0 +1,13 @@
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\POO\Mascotas\EntidadesTest\bin\Debug\EntidadesTest.exe.config
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\POO\Mascotas\EntidadesTest\bin\Debug\EntidadesTest.exe
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\POO\Mascotas\EntidadesTest\bin\Debug\EntidadesTest.pdb
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\POO\Mascotas\EntidadesTest\bin\Debug\EntidadesTest.xml
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\POO\Mascotas\EntidadesTest\bin\Debug\Entidades.dll
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\POO\Mascotas\EntidadesTest\bin\Debug\Entidades.pdb
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\POO\Mascotas\EntidadesTest\bin\Debug\Entidades.xml
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\POO\Mascotas\EntidadesTest\obj\Debug\EntidadesTest.vbprojResolveAssemblyReference.cache
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\POO\Mascotas\EntidadesTest\obj\Debug\EntidadesTest.Resources.resources
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\POO\Mascotas\EntidadesTest\obj\Debug\EntidadesTest.vbproj.GenerateResource.Cache
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\POO\Mascotas\EntidadesTest\obj\Debug\EntidadesTest.exe
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\POO\Mascotas\EntidadesTest\obj\Debug\EntidadesTest.xml
+C:\Users\Anibal\Documents\Visual Studio 2015\Projects\Visual\POO\Mascotas\EntidadesTest\obj\Debug\EntidadesTest.pdb
