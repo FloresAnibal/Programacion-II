@@ -10,16 +10,17 @@
         _memoria = New Queue(Of String)
         _fechaNacimiento = Nothing
         _nombre = ""
+        _palabras = ""
     End Sub
 
     'propiedades
-    Public ReadOnly Property Edad() As Short
+    Public ReadOnly Property Edad As Short
         Get
             Return CalcularEdad(FechaNacimiento)
         End Get
     End Property
 
-    Public Property FechaNacimiento() As Date
+    Public Property FechaNacimiento As Date
         Get
             Return _fechaNacimiento
         End Get
@@ -28,7 +29,7 @@
         End Set
     End Property
 
-    Public Property Nombre() As String
+    Public Property Nombre As String
         Get
             Return _nombre
         End Get

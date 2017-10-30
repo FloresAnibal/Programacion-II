@@ -22,10 +22,9 @@ Module LoroTest
         loro_1.Escuchar("pa el loro")
         loro_1.Escuchar("Juan")
 
-        Console.WriteLine(loro_1.Hablar)
-        Console.WriteLine(loro_1.Hablar)
-        Console.WriteLine(loro_1.Hablar)
-        Console.WriteLine(loro_1.Hablar)
+        For x = 1 To 4
+            Console.WriteLine(loro_1.Hablar)
+        Next
 
         Console.ReadKey()
     End Sub

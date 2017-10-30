@@ -11,9 +11,9 @@
     End Sub
 
     'propiedades
-    Public ReadOnly Property EdadHumana() As UShort
+    Public ReadOnly Property EdadHumana As UShort
         Get
-            Return MyBase.Edad * 2
+            Return Edad * 2
         End Get
     End Property
 

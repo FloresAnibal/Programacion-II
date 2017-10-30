@@ -8,12 +8,12 @@
     'constructor
     Sub New()
         _nombre = ""
-        _loro = New Loro
+        _loro = Nothing
         _cotorras = New List(Of Cotorra)
     End Sub
 
     'propiedades
-    Public Property Nombre() As String
+    Public Property Nombre As String
         Get
             Return _nombre
         End Get
@@ -22,7 +22,7 @@
         End Set
     End Property
 
-    Public Property Loro() As Loro
+    Public Property Loro As Loro
         Get
             Return _loro
         End Get
